@@ -113,7 +113,6 @@ Evaluates the quality of the generated Trojan for factors like stealth, severity
 
 | | Exemplary  <br> 25 - 20 Points| Proficient <br> 19 - 13 Points | Developing <br> 12 - 6 Points | Novice <br> 5 - 0 Points|
 | :--- | :--- | :--- | :--- | :--- |
-| | 25 - 20 Points | 19 - 13 Points | 12 - 6 Points | 5 - 0 Points |
 | **Trojan Quality** | Highly stealthy with an extremely specific trigger and negligible resource overhead. Payload is sophisticated (e.g., precise key exfiltration) and normal operation is perfectly preserved. | Stealthy with a clear trigger and functional payload. Normal operation is preserved, but resource overhead is noticeable or the payload is less sophisticated (e.g., simple DoS or basic data corruption). | Trojan activates, but the trigger is too broad (prone to accidental activation). Normal operation is occasionally impacted, or the hardware footprint is suspiciously large. | Trojan fails to trigger, completely breaks the baseline cryptographic functionality, or the payload is non-functional. |
 
 
