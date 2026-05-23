@@ -1,5 +1,5 @@
 # DAC 2026 - AI Hardware Attack Challenge
-[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+ [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 [![](https://dcbadge.limes.pink/api/server/https://discord.gg/mVhGtUmu8)](https://discord.gg/mVhGtUmu8)
 
