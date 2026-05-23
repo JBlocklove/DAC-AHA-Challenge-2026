@@ -76,7 +76,7 @@ By the submission deadline, teams must provide a `.zip` archive containing:
 
 1.  **Modified RTL:** The Verilog files containing your AI-generated hardware Trojan.
 2.  **Exploit Testbench:** A custom simulation testbench demonstrating how to trigger the Trojan and verifying that the payload successfully executes.
-    - This can be based off the provided base testbench.
+    - This can be based off the provided funtional micropython script.
 3.  **GenAI Transcripts:** Comprehensive logs (or a document containing links to chat histories) of all prompts and AI responses used to generate the Trojan. *Submissions missing these logs will be disqualified.*
 4.  **Technical Brief:** A short text or markdown README detailing the following:
     - The team's methods for reverse engineering and understanding the bitstream.
@@ -93,7 +93,7 @@ submission.zip
 ├─ rtl/
 │  └── <Modified RTL>
 ├─ tb/
-│  └── <Modified Testbench>
+│  └── <Exploit Testbench>
 └─ ai/
    └── <all AI interactions (chat logs, etc.)>
 ```
@@ -139,6 +139,8 @@ Assesses the quality of the testbench in proving both normal operation and the s
 | :--- | :--- | :--- | :--- | :--- |
 | **Simulation Quality** | Flawless testbench; explicitly proves normal operation *and* the payload trigger with clear waveforms. | Clearly demonstrates payload triggering, but proof of normal operation is lacking. | Buggy or hard to interpret; proves payload works but trigger mechanism is unclear. | Missing, fails to compile, or does not successfully demonstrate the exploit. |
 
+#### Bonus Points
+While not explicitly a part of this particular challenge, up to 10 bonus points are available if teams can recover the key used for encryption/decryption in the FPGA accelerator. **If you do so, please make it clear in your documentation along with a brief explanation of how you recovered the key.**
 
 ## Phase 2
 **To be released at the start of Phase 2.**
