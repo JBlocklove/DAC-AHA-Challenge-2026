@@ -86,7 +86,7 @@ By the submission deadline, teams must provide a `.zip` archive containing:
         - Any methods taken to increase the Trojan's stealth.
         - Details on the exploit for the vulnerability. **This should include enough detail that we are able to exploit the Trojan in hardware once a bitstream is generated from the provided RTL.**
 
-All files should be submitted in the following format to [this Google form]():
+All files should be submitted in the following format to [this Google form](https://forms.gle/kRLwy3NoLW7wVj4w8):
 ```
 submission.zip
 ├── README.md (or pdf)
